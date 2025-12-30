@@ -1,0 +1,13 @@
+# IDE
+.idea/
+.history/
+
+# Tests
+variables.tfvars
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+provider.tf
+*.tfstate
+*.tfplan
