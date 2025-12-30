@@ -9,5 +9,5 @@ variables.tfvars
 .terraform/
 .terraform.lock.hcl
 provider.tf
-*.tfstate
+*.tfstate*
 *.tfplan
