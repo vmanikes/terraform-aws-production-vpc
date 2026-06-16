@@ -1,6 +1,10 @@
 # Terraform AWS Production VPC
 
+[![Terraform Registry](https://img.shields.io/badge/terraform-registry-623CE4?logo=terraform)](https://registry.terraform.io/modules/vmanikes/production-vpc/aws/latest)
+
 A VPC module that makes the right decisions, so you can focus on what matters.
+
+Published on the Terraform Registry: [vmanikes/production-vpc/aws](https://registry.terraform.io/modules/vmanikes/production-vpc/aws/latest)
 
 ## The Philosophy
 
