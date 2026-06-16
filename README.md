@@ -1,4 +1,4 @@
-# Awesome EKS VPC
+# Terraform AWS Production VPC
 
 A VPC module that makes the right decisions, so you can focus on what matters.
 
@@ -55,7 +55,7 @@ Instead of giving you 47 knobs to turn, we give you a VPC architecture that's pr
 
 ```hcl
 module "vpc" {
-  source = "your-namespace/awesome-eks-vpc/aws"
+  source = "vmanikes/production-vpc/aws"
 
   cidr_block = "10.0.0.0/16"
 }
@@ -67,7 +67,7 @@ That's it. One variable. Production-ready VPC for EKS.
 
 ```hcl
 module "vpc" {
-  source = "your-namespace/awesome-eks-vpc/aws"
+  source = "vmanikes/production-vpc/aws"
 
   cidr_block       = "10.0.0.0/16"
   nat_gateway_mode = "regional"  # Default: single HA NAT Gateway
@@ -78,7 +78,7 @@ module "vpc" {
 
 ```hcl
 module "vpc" {
-  source = "your-namespace/awesome-eks-vpc/aws"
+  source = "vmanikes/production-vpc/aws"
 
   cidr_block       = "10.0.0.0/16"
   nat_gateway_mode = "per-az"  # One NAT Gateway per AZ
@@ -119,7 +119,7 @@ Want a specific count? Just say so:
 
 ```hcl
 module "vpc" {
-  source = "your-namespace/awesome-eks-vpc/aws"
+  source = "vmanikes/production-vpc/aws"
 
   cidr_block            = "10.0.0.0/16"
   public_subnet_count   = 3
@@ -260,7 +260,7 @@ nat_gateway_mode = "per-az"
 
 ```hcl
 module "vpc" {
-  source = "your-namespace/awesome-eks-vpc/aws"
+  source = "vmanikes/production-vpc/aws"
   
   cidr_block = "10.0.0.0/16"
 }

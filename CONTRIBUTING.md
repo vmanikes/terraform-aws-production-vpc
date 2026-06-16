@@ -10,8 +10,8 @@ This module is opinionated by design. We've made deliberate choices about subnet
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/awesome-eks-vpc.git
-cd awesome-eks-vpc
+git clone https://github.com/vmanikes/terraform-aws-production-vpc.git
+cd terraform-aws-production-vpc
 
 # Create a branch
 git checkout -b my-feature
